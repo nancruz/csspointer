@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:900);
+
+html {
+    background: black;
+    color: rgba(255,255,255,.63);
+    font-family: 'Exo';
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+    background: linear-gradient(#b01c1c 20%, #f5d833 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 3px #ccc;
+    transform: skewX(8deg);
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cursors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cursor {
+    border: 1px solid #3b9db3;
+    width: 5rem;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
